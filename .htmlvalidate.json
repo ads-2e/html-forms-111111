@@ -1,0 +1,9 @@
+{
+  "extends": [
+    "htmlvalidate:recommended"
+  ],
+ 
+  "rules": {
+    "element-required-attributes": "off"
+  }
+}
