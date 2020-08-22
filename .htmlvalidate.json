@@ -4,6 +4,8 @@
   ],
  
   "rules": {
-    "element-required-attributes": "off"
+    "element-required-attributes": "off",
+    "void-style": "off",
+    "no-trailing-whitespace": "off"
   }
 }
