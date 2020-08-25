@@ -51,6 +51,41 @@
             <p>
                 Aqui constará o formulário de contato. Esse formulário deve possuir os seguintes campos:
             </p>
+
+            <form action="agradecimento.html" id="contato">
+                <p>
+                    <label for="nome-completo">Nome completo: </label><br>
+                    <input type="text" name="nome-completo" id="nome-completo" maxlength="120" required>
+                </p>
+
+                
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto: </label><br>
+                    <select name="assunto" id="assunto" required>
+                        <option value="">Selecionar uma opção...</option>
+                        <option value="B">Bug</option>
+                        <option value="R">Reclamação</option>
+                        <option value="S">Sugestão</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea name="mensagem" id="mensagem" cols="40" rows="5" maxlength="500" required></textarea>
+                </p>
+
+                <p>
+                    <button type="submit" form="contato">Enviar</button>
+                </p>
+
+            </form>
+
             <ul>
                 <li><strong>nome-completo</strong>: deve capturar um texto de única linha de até 120 caracteres, obrigatório.</li>
                 <li><strong>email</strong>: deve capturar um e-mail válido, obrigatório.</li>
